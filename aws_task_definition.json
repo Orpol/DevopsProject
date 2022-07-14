@@ -16,6 +16,13 @@
             "links": [
                 ""
             ],
+            "portMappings": [
+                {
+                "hostPort": 80,
+                "protocol": "tcp",
+                "containerPort": 80
+                }
+            ],
             "essential": true,
             "entryPoint": [
                 ""
