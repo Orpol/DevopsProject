@@ -43,15 +43,6 @@
             "dnsServers": [
                 ""
             ],
-            "dnsSearchDomains": [
-                ""
-            ],
-            "extraHosts": [
-                {
-                    "hostname": "",
-                    "ipAddress": ""
-                }
-            ],
             "dockerSecurityOptions": [
                 ""
             ],
@@ -66,25 +57,7 @@
                     "softLimit": 0,
                     "hardLimit": 0
                 }
-            ],
-            "logConfiguration": {
-                "logDriver": "splunk",
-                "options": {
-                    "KeyName": ""
-                },
-                "secretOptions": [
-                    {
-                        "name": "",
-                        "valueFrom": ""
-                    }
-                ]
-            },
-            "systemControls": [
-                {
-                    "namespace": "",
-                    "value": ""
-                }
-            ],
+            ]
         }
     ],
     "requiresCompatibilities": [
