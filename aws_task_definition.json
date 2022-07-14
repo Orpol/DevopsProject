@@ -34,8 +34,6 @@
                     "valueFrom": ""
                 }
             ],
-            "startTimeout": 0,
-            "stopTimeout": 0,
             "hostname": "",
             "user": "",
             "workingDirectory": "",
