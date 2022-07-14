@@ -37,7 +37,7 @@
             "hostname": "",
             "user": "",
             "workingDirectory": "",
-            "privileged": true,
+            "privileged": false,
             "dnsServers": [
                 ""
             ],
