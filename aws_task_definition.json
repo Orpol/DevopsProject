@@ -1,3 +1,4 @@
+
 {
     "family": "1",
     "taskRoleArn": "",
@@ -10,15 +11,8 @@
             "repositoryCredentials": {
                 "credentialsParameter": ""
             },
-            "logConfiguration": {
-                "logDriver": "awslogs",
-                "options": {
-                    "awslogs-group": "firelens-container",
-                    "awslogs-region": "eu-west-2",
-                    "awslogs-create-group": "true",
-                    "awslogs-stream-prefix": "firelens"
-                }
-            },
+            "cpu": 99,
+            "memory": 100,
             "links": [
                 ""
             ],
@@ -69,8 +63,8 @@
         "EC2",
         "FARGATE"
     ],
-    "cpu": "512",
-    "memory": "1024",
+    "cpu": "256",
+    "memory": "512",
     "tags": [
         {
             "key": "",
