@@ -59,14 +59,6 @@
             ]
         }
     ],
-    "loadBalancers": [
-        {
-            "targetGroupArn": "arn:aws:elasticloadbalancing:eu-west-2:001343183032:targetgroup/targetgroup/b70b0147146fd51b",
-            "loadBalancerName": "loadbalancer",
-            "containerName": "app",
-            "containerPort": 80
-        }
-    ],
     "requiresCompatibilities": [
         "EC2",
         "FARGATE"
