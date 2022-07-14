@@ -2,7 +2,7 @@
     "family": "1",
     "taskRoleArn": "",
     "executionRoleArn": "",
-    "networkMode": "none",
+    "networkMode": "awsvpc",
     "containerDefinitions": [
         {
             "name": "app",
