@@ -73,9 +73,6 @@
     ],
     "pidMode": "host",
     "ipcMode": "task",
-    "ephemeralStorage": {
-        "sizeInGiB": 0
-    },
     "runtimePlatform": {
         "cpuArchitecture": "ARM64",
         "operatingSystemFamily": "WINDOWS_SERVER_2016_FULL"
