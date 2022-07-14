@@ -28,20 +28,6 @@
                     "value": ""
                 }
             ],
-            "linuxParameters": {
-                "capabilities": {
-                    "add": [
-                        ""
-                    ],
-                    "drop": [
-                        ""
-                    ]
-                },
-                "initProcessEnabled": true,
-                "sharedMemorySize": 0,
-                "maxSwap": 0,
-                "swappiness": 0
-            },
             "secrets": [
                 {
                     "name": "",
