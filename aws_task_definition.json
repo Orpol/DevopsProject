@@ -35,12 +35,6 @@
                     "readOnly": true
                 }
             ],
-            "volumesFrom": [
-                {
-                    "sourceContainer": "",
-                    "readOnly": true
-                }
-            ],
             "linuxParameters": {
                 "capabilities": {
                     "add": [
