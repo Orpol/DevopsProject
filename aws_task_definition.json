@@ -1,7 +1,7 @@
 {
     "family": "1",
     "taskRoleArn": "",
-    "executionRoleArn": "",
+    "executionRoleArn": "arn:aws:iam::001343183032:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
