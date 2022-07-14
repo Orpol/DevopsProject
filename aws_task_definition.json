@@ -100,12 +100,6 @@
     ],
     "pidMode": "host",
     "ipcMode": "task",
-    "inferenceAccelerators": [
-        {
-            "deviceName": "",
-            "deviceType": ""
-        }
-    ],
     "ephemeralStorage": {
         "sizeInGiB": 0
     },
