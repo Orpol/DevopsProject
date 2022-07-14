@@ -16,13 +16,6 @@
             "links": [
                 ""
             ],
-            "portMappings": [
-                {
-                    "containerPort": 0,
-                    "hostPort": 0,
-                    "protocol": "udp"
-                }
-            ],
             "essential": true,
             "entryPoint": [
                 ""
