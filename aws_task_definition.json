@@ -28,13 +28,6 @@
                     "value": ""
                 }
             ],
-            "mountPoints": [
-                {
-                    "sourceVolume": "",
-                    "containerPath": "",
-                    "readOnly": true
-                }
-            ],
             "linuxParameters": {
                 "capabilities": {
                     "add": [
