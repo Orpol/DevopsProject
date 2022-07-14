@@ -37,9 +37,7 @@
             "hostname": "",
             "user": "",
             "workingDirectory": "",
-            "disableNetworking": true,
             "privileged": true,
-            "readonlyRootFilesystem": true,
             "dnsServers": [
                 ""
             ],
