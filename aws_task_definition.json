@@ -85,12 +85,6 @@
                     "value": ""
                 }
             ],
-            "firelensConfiguration": {
-                "type": "fluentd",
-                "options": {
-                    "KeyName": ""
-                }
-            }
         }
     ],
     "requiresCompatibilities": [
