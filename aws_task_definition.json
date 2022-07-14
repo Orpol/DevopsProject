@@ -1,5 +1,5 @@
 {
-    "family": "",
+    "family": "1",
     "taskRoleArn": "",
     "executionRoleArn": "",
     "networkMode": "none",
@@ -36,12 +36,6 @@
                     "value": ""
                 }
             ],
-            "environmentFiles": [
-                {
-                    "value": "",
-                    "type": "s3"
-                }
-            ],
             "mountPoints": [
                 {
                     "sourceVolume": "",
@@ -64,26 +58,8 @@
                         ""
                     ]
                 },
-                "devices": [
-                    {
-                        "hostPath": "",
-                        "containerPath": "",
-                        "permissions": [
-                            "read"
-                        ]
-                    }
-                ],
                 "initProcessEnabled": true,
                 "sharedMemorySize": 0,
-                "tmpfs": [
-                    {
-                        "containerPath": "",
-                        "size": 0,
-                        "mountOptions": [
-                            ""
-                        ]
-                    }
-                ],
                 "maxSwap": 0,
                 "swappiness": 0
             },
@@ -91,12 +67,6 @@
                 {
                     "name": "",
                     "valueFrom": ""
-                }
-            ],
-            "dependsOn": [
-                {
-                    "containerName": "",
-                    "condition": "COMPLETE"
                 }
             ],
             "startTimeout": 0,
@@ -146,25 +116,10 @@
                     }
                 ]
             },
-            "healthCheck": {
-                "command": [
-                    ""
-                ],
-                "interval": 0,
-                "timeout": 0,
-                "retries": 0,
-                "startPeriod": 0
-            },
             "systemControls": [
                 {
                     "namespace": "",
                     "value": ""
-                }
-            ],
-            "resourceRequirements": [
-                {
-                    "value": "",
-                    "type": "GPU"
                 }
             ],
             "firelensConfiguration": {
@@ -190,16 +145,6 @@
                 },
                 "labels": {
                     "KeyName": ""
-                }
-            },
-            "efsVolumeConfiguration": {
-                "fileSystemId": "",
-                "rootDirectory": "",
-                "transitEncryption": "ENABLED",
-                "transitEncryptionPort": 0,
-                "authorizationConfig": {
-                    "accessPointId": "",
-                    "iam": "ENABLED"
                 }
             },
             "fsxWindowsFileServerVolumeConfiguration": {
@@ -231,16 +176,6 @@
     ],
     "pidMode": "host",
     "ipcMode": "task",
-    "proxyConfiguration": {
-        "type": "APPMESH",
-        "containerName": "",
-        "properties": [
-            {
-                "name": "",
-                "value": ""
-            }
-        ]
-    },
     "inferenceAccelerators": [
         {
             "deviceName": "",
